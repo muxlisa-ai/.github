@@ -77,9 +77,9 @@ body:
 
   - type: input
     attributes:
-      label: Xinux|Package Version
+      label: Package Version
       description: 'Long form of your Project version (`project --version`)'
-      placeholder: 'Xinux alpha 2022.09.09 (release, x86_64-unknown-linux-gnu)'
+      placeholder: 'Python 3.8.5'
     validations:
       required: true
 
