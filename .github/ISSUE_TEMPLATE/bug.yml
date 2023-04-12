@@ -21,40 +21,12 @@ body:
         - If you open an issue that has many duplicates, the triager may close your issue.
         - If you fill something completely blank in the body, the triager may close your issue without further explanation or engagement.
 
-  - type: checkboxes
-    attributes:
-      label: Bu muammo bo\'yicha yana boshqa xabar bormi?
-      description: Iltimos qidiruv xizmatidan foydalanib bunday muammo haqida avval xabar berilgan yoki yo\'qligini tekshirib ko'ring.
-      options:
-        - label: Izlashni amalga oshirdim
-          required: true
-
   - type: textarea
     attributes:
       label: Tavsif
       description: Muammo haqida aniq va lo\'nda yozishga harakat qiling.
     validations:
       required: true
-
-  - type: textarea
-    attributes:
-      label: Hozir olinayotgan natija?
-      description: |
-        Is something broken, or not behaving as you expected?
-        Describe this section in detail, and attach screenshots if possible.
-        Don't only say "it doesn't work"!
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
-      label: Asli qanday natija chiqishi kerak?
-      description: |
-        How did you expect your project to behave?
-        It’s fine if you’re not sure you understand.
-        Write down what you expected would happen.
-    validations:
-      required: false
 
   - type: textarea
     attributes:
@@ -67,17 +39,9 @@ body:
     validations:
       required: true
 
-  - type: input
-    attributes:
-      label: Qurilmangiz
-      description: 'Name and version of your operating system'
-      placeholder: 'Ubuntu 20.04'
-    validations:
-      required: false
-
   - type: textarea
     attributes:
-      label: Qo\'shimcha?
+      label: Qo'shimcha?
       description: Links? References? Anything that will give us more context about the issue you are encountering!
     validations:
       required: false
