@@ -1,5 +1,5 @@
-name: 🐛 Bug Report
-description: Submit a bug report
+name: 🐛 Xatolik haqida xabar
+description: Xatolik haqida xabar yuborish
 labels: ['bug report', 'needs triage']
 
 body:
@@ -23,22 +23,22 @@ body:
 
   - type: checkboxes
     attributes:
-      label: Is there an existing issue/discussion for your problem?
-      description: Please search to see if an issue/discussion already exists for the problem you encountered.
+      label: Bu muammo bo'yicha yana boshqa xabar bormi?
+      description: Iltimos qidiruv xizmatidan foydalanib bunday muammo haqida avval xabar berilgan yoki yo'qligini tekshirib ko'ring.
       options:
-        - label: I have searched existing issues and discussions
+        - label: Izlashni amalga oshirdim
           required: true
 
   - type: textarea
     attributes:
       label: Description
-      description: A clear and concise description of what the bug is
+      description: Muammo haqida aniq va lo'nda yozishga harakat qiling.
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: Current Behavior
+      label: Hozir olinayotgan natija?
       description: |
         Is something broken, or not behaving as you expected?
         Describe this section in detail, and attach screenshots if possible.
@@ -48,7 +48,7 @@ body:
 
   - type: textarea
     attributes:
-      label: Expected Behavior
+      label: Asli qanday natija chiqishi kerak?
       description: |
         How did you expect your project to behave?
         It’s fine if you’re not sure you understand.
@@ -58,7 +58,7 @@ body:
 
   - type: textarea
     attributes:
-      label: Steps To Reproduce
+      label: Ushbu holatni tekshirish uchun
       description: Steps to reproduce the behavior.
       placeholder: |
         1. With this config...
@@ -73,19 +73,11 @@ body:
       description: 'Name and version of your operating system'
       placeholder: 'Ubuntu 20.04'
     validations:
-      required: true
-
-  - type: input
-    attributes:
-      label: Package Version
-      description: 'Long form of your Project version (`project --version`)'
-      placeholder: 'Python 3.8.5'
-    validations:
-      required: true
+      required: false
 
   - type: textarea
     attributes:
-      label: Additional context?
+      label: Qo'shimcha?
       description: Links? References? Anything that will give us more context about the issue you are encountering!
     validations:
       required: false
