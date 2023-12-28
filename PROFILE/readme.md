@@ -1,4 +1,4 @@
-![Muxlisa Open Source da](https://github.com/muxlisa-ai/.github/blob/main/ASSETS/Banner.png) 
+<!-- ![Muxlisa Open Source da](https://github.com/muxlisa-ai/.github/blob/main/ASSETS/Banner.png) --> 
 
 <p align="center">
   <a href="https://muxlisa.uz"><img src="https://github.com/muxlisa-ai/.github/blob/main/ASSETS/STT.png" width=48% alt="STT"></a>
